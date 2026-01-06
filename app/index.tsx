@@ -14,6 +14,7 @@ const router = useRouter()
             <Button title=" ไปหน้า 2" onPress={() => router.navigate('/rectangle') }/>
         </View>
     )
+   
 }
 
 const styles = StyleSheet.create({

@@ -11,18 +11,18 @@ const [width, setWidth] = useState(0)
 const [length, setLength] = useState(0)
 
 function rectangleCal(){
-var result = width * length
+var result = 1/2 * width * length
 setArea(result)
 }
 
     return (
         <View style={styles.box}>
-            <Text style={styles.textTitle}>คำนวณพื้นที่สี่เหลี่ยม</Text>
+            <Text style={styles.textTitle}>คำนวณพื้นที่สามเหลี่ยมมุมฉาก</Text>
  {/* <Button title=" ไปหน้า 2"/> */}
          
-        <Text> ความกว้าง คือ {width} ซม. </Text>
-         <Text> ความยาว คือ {length} ซม. </Text>
- <Text> พื้นที่สี่เหลี่ยม คือ {area} ตร.ซม. </Text>
+        <Text> ด้านหนึ่ง คือ {width} ซม. </Text>
+         <Text> ด้านสอง คือ {length} ซม. </Text>
+ <Text> พื้นที่สามเหลี่ยมมุมฉาก คือ {area} ตร.ซม. </Text>
 
 
 
@@ -38,7 +38,6 @@ setArea(result)
             onChangeText={(l) => setLength(Number(l))}
             />
       <Button title="คำนวณ" onPress={() => rectangleCal() } />
-       <Button title=" ไปหน้า 3" onPress={()=> router.navigate('/RightTriangle')}/>
         </View>
     )
 }.0
