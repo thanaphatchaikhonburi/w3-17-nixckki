@@ -11,7 +11,7 @@ const router = useRouter()
     return (
         <View style={styles.box}>
             <Text style={styles.textTitle}>Home</Text>
-            <Button title=" ไปหน้า 2" onPress={() => router.navigate('/rectangle') }/>
+            <Button title=" คำนวณพื้นที่สี่เหลี่ยม" onPress={() => router.navigate('/rectangle') }/>
         </View>
     )
    

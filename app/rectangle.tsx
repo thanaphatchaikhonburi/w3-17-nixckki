@@ -38,7 +38,7 @@ setArea(result)
             onChangeText={(l) => setLength(Number(l))}
             />
       <Button title="คำนวณ" onPress={() => rectangleCal() } />
-       <Button title=" ไปหน้า 3" onPress={()=> router.navigate('/RightTriangle')}/>
+       <Button title=" คำนวณพื้นที่สามเหลี่ยมมุมฉาก" onPress={()=> router.navigate('/RightTriangle')}/>
         </View>
     )
 }.0

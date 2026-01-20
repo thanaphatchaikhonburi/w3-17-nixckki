@@ -2,9 +2,6 @@ import { View, Text, Button, StyleSheet, TextInput} from "react-native";
 import { useState } from "react";
 import { router } from "expo-router";
 export default function Rectangle() {
-//พื้นที่สี่เหลี่ยม =  กว้าง * ยาว 
-//       60   = 6 * 10
-// Output  = Input * Input 
 
 const [area , setArea] = useState(0) // area = 20 x, setArea(20) /
 const [width, setWidth] = useState(0)
